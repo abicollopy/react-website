@@ -1,0 +1,16 @@
+.christmastreeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.christmastree{
+    margin-top: 65px;
+    
+}
+
+.text{
+    text-align: center;
+    font-size: 65px;
+}

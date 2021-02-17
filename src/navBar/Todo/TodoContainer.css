@@ -1,0 +1,23 @@
+
+.TodoContainer{
+    display: grid;
+    grid-template: "A B C" max-content / 25% 1fr 25%;
+    padding-top: 50px;
+    color: black;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.Insides{
+    grid-area: B;
+    text-align: center;
+    background-color: #3f445d;
+    color: white;
+    padding: 3px;
+}
+
+.Insidesbutton{
+    font-size: 25px;
+    color: lawngreen;
+    background-color: lightseagreen;
+}

@@ -1,0 +1,50 @@
+.Background{
+    background-color:white;
+    justify-content: space-around;
+    display:flex;
+}
+
+.TabsContainer{
+    background-color:#3f445d;
+    margin-top:75px;
+    min-width: 700px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.TabButton{
+    color: white;
+    cursor:pointer;
+    background-color: #24292e;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.TabButton:hover{
+    background-color: #4b535a;
+}
+
+.ActiveTab{
+    background-color: #525669;
+    margin: 5px 5px 0px 5px;
+}
+
+.ActiveTab:hover{
+    background-color:#570c9c;
+}
+
+.TabsWrapper{
+    min-height: 250px;
+    background-color:#3f445d;
+    color: white;
+    padding: 0px 5px 5px 5px;
+}
+
+.TabsContent{
+    background-color: #525669;
+    min-height: 245px;
+    padding: 5px 5px 5px 5px;
+}
